@@ -1,0 +1,42 @@
+# Basic information about the user
+personalInfo:
+  fullName: "Oriol Miró López-Feliu"
+  shortName: "Oriol"
+  profileImage: "images/profile.png"
+
+# Contact information for the footer
+contactDetails:
+  - type: Email
+    icon: "fas fa-envelope"
+    url: "oriol.miro.07@gmail.com"
+  - type: Github
+    icon: "fab fa-github"
+    url: "https://github.com/oriolmirolf"
+  - type: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/oriol-miro/"
+  - type: Google Scholar
+    icon: "fab fa-google-scholar"        
+    url: "https://scholar.google.com/citations?user=NSaj9h4AAAAJ&hl=ca"
+  - type: "Tricky Tricky"
+    icon: "fas fa-fire"
+    url: "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+
+# Professional designations and affiliations
+roles:
+  - title: Research Engineer
+    organization:
+      name: BSC
+      website: "https://www.bsc.es"
+  - title: AI MSc Student
+    organization:
+      name: UPC, UB, URV
+      website: "https://www.fib.upc.edu/"
+
+# Links to resources like resumes
+resources:
+  - name: "My Resume"
+    link: "pdfs/Oriol_Miro_CV.pdf"
+
+# A detailed summary about the user
+bio: "I am a research engineer at [Barcelona Supercomputing Center](https://www.bsc.es) working in the [HPAI](https://hpai.bsc.es) group. I recently published my first paper (oral presentation!) at [CCIA](https://webs-deim.urv.cat/~itaka/CCIAVALLS2025/index.html). I am also pursuing a master's degree in Artificial Intelligence at [Universitat Politècnica de Catalunya](https://www.fib.upc.edu/), [Universitat de Barcelona](https://www.ub.edu/) and [Universitat Rovira i Virgili](https://www.urv.cat/). I am also the head of the electronics department of [ARM2u](https://arm2u-etseib.upc.edu/wp/), a student-led team deveolping an affordable, user-centered myoelectrical transradial prosthetic arm. Last July, we were invited to the United Nations' [AI for Good Summit](https://aiforgood.itu.int) to present our project. I am interested in agents, RL, neuroscience, and societal+cognitive effects of AI. In my free time I tinker with robotics, develop projects that improve my quality of life, solve games with AI agents, read, and do sports."

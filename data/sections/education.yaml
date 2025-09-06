@@ -1,0 +1,49 @@
+degrees:
+- name: Master's Degree in Artificial Intelligence
+  icon: fa-graduation-cap
+  timeframe: September 2024 - Present
+  ects: 90
+  institution:
+    name: Universitat Politècnica de Catalunya / Universitat de Barcelona / Universitat Rovira i Virgili
+    url: "https://masters.fib.upc.edu/masters/master-artificial-intelligence"
+    logo: /images/upc-short.png 
+  grade: #(optional)
+    scale: Average mark
+    achieved: 9.39
+    outOf: 10
+  publications: #(optional)
+  - title: Developing Coordination Methods for AI Agents in Open-ended Environments
+    url: "https://upcommons.upc.edu/entities/publication/042de38d-a391-45c4-a411-55c9df80b2cc"  
+
+- name: Bachelor's Degree in Informatics Engineering specialization in Computer Science
+  icon: fa-graduation-cap
+  timeframe: "September 2020 - June 2024"
+  ects: 240
+  institution:
+    name: Universitat Politècnica de Catalunya - Facultat d'Informàtica de Barcelona
+    url: "https://www.fib.upc.edu/en"
+    logo: /images/upc-short.png 
+  grade: #(optional)
+    scale: Average mark
+    achieved: 8.41
+    outOf: 10
+  publications: #(optional)
+  - title: Developing Coordination Methods for AI Agents in Open-ended Environments
+    url: "https://upcommons.upc.edu/entities/publication/042de38d-a391-45c4-a411-55c9df80b2cc"
+
+- name: Exchange studies (Erasmus+ Programme)
+  icon: fa-graduation-cap
+  timeframe: August 2023 - December 2023
+  ects: 30
+  institution:
+    name: The University of Edinburgh - College of Science & Engineering
+    url: "https://science-engineering.ed.ac.uk"
+    logo: /images/uoe_dark.png
+    darkLogo: /images/uoe_short.png
+  grade: #(optional)
+    scale: Average mark
+    achieved: 9.3
+    outOf: 10
+ 
+  extracurricularActivities:
+  - Part of [Men's 1s Basketball Team](https://www.eusu.ed.ac.uk/organisation/basketball/)

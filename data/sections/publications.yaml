@@ -1,0 +1,21 @@
+publications:
+  - title: "Listen, Adjust, Act: Adding Communication to Pre-trained Agents via Goal Adjustments"
+    authors: "Oriol Miró López-Feliu; Adrian Tormos; Victor Gimenez Abalos"
+    venue: "CCIA"
+    year: 2025
+    summary: "Adds comms to pre-trained goal-conditioned RL by adjusting latent goals, enabling coordination on multi-agent tasks without retraining end-to-end. Tested on the challenging Minecraft environment."
+    logo: /images/CCIA_logo.svg
+    # link: "https://<add-when-available>"
+    # pdf: "/pdfs/listen-adjust-act.pdf"
+    # doi: "10.xxxx/xxxx"
+
+  - title: "FROM TRAPS TO TREASURE: AN AGENT ENVIRONMENT FOR SPELUNKY 2'S PROCEDURAL DEPTHS"
+    authors: "Víctor González Bentué; Oriol Miró López-Feliu; Víctor Gimenez Abalos"
+    venue: "Bachelor Thesis (TFG), UPC – FIB"
+    year: 2025
+    summary: "I co-directed this thesis which introduces spelunkyRL, a customizable Gymnasium environment for Spelunky 2 via a Lua mod, with procedurally generated, partially observable levels that demand long-horizon planning. Supports flexible tasks and efficient parallelism; reveals algorithmic limits—on-policy methods reach ~85% on simplified levels but struggle with hazards and sparse rewards. "
+    logo: /images/upc-short.png
+    link: "https://github.com/vicbentu/spelunkyRL"
+    # pdf: ""
+    # doi: ""
+    # videos: "https://drive.google.com/drive/folders/1dJnNZViwXibUW7AtXXoJE7D12flglhFk?usp=sharing"

@@ -1,0 +1,56 @@
+experiences:
+  - company:
+      name: Barcelona Supercomputing Center
+      url: "https://www.bsc.es/es"
+      location: Barcelona, Spain
+      logo: /images/bsc.png              # add a logo file to static/images and adjust path if needed
+      overview: Member of the HPAI group working on agents, MAS, and RL.
+    positions:
+      - designation: Research Engineer
+        start: January 2025
+        # end:                       # keep empty so Toha shows "Present"
+        responsibilities:
+          - Collaborating on various research projects.
+          - Participating in the AI4Europe european project, building the AIoD platform. 
+
+  - company:
+      name: ARM2u
+      url: "https://arm2u-etseib.upc.edu/wp/"
+      location: Barcelona, Spain
+      logo: /images/arm2u.png            # add a logo to static/images and keep this path
+      overview: Student-led biomedical engineering team building a affordable myoelectrical transradial prosthetic arm.
+    positions:
+      - designation: Electronics Lead
+        start: July 2025
+        # end:                       # leave empty so Toha shows "Present"
+        responsibilities:
+          - Leading the electronics department.
+
+      - designation: AI Engineer & EMG Research
+        start: January 2025
+        end: June 2025
+        # end:                           # leave empty so Toha shows "Present"
+        responsibilities:
+          - Workin on AI section of prothesis. Focus on electronics, EMG signal decoding, and embedded systems.
+
+  - company:
+      name: T2C
+      url: "https://www.t2client.com/"
+      location: Barcelona, Spain
+      logo: /images/t2c_logo.png             # add a logo file to static/images
+      overview: AI/ML engineering and data projects for clients.
+    positions:
+      - designation: AI Engineer Intern
+        start: February 2024
+        end: July 2024
+        responsibilities:
+        - Built a GenAI content generator using RAG, web scraping, and LLM tuning (ChatGPT, Claude, Mistral, Llama).
+        - Led a video-to-store clothing-retrieval system; delivered an end-to-end pipeline running \~4 FPS.
+        - Built a model that scanned newspapers into accessible HTML using OCR and LLMs.
+
+      - designation: Machine Learning Engineer Intern
+        start: July 2023
+        end: September 2023
+        responsibilities:
+          - Contributed to time-series forecasting for bottled-water demand; led model development, testing, and optimization.
+
