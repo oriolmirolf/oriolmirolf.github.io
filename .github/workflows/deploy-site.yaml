@@ -1,44 +1,33 @@
-# .github/workflows/deploy-site.yaml  (branch: source)
-name: Deploy to GitHub Pages
+name: Deploy to Github Pages
 
+# run when a commit is pushed to "source" branch
 on:
   push:
-    branches: [source]      # build when you push to source
-  workflow_dispatch:        # add a "Run workflow" button in the UI
-
-permissions:
-  contents: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
+    branches:
+    - source
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (with submodules)
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
+    # checkout to the commit that has been pushed
+    - uses: actions/checkout@v4
+      with:
+        submodules: 'recursive'
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.142.0'
-          extended: true
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3.0.0
+      with:
+        hugo-version: '0.142.0'
+        extended: true
 
-      - name: Build
-        # Clean the output dir and use your baseURL
-        run: hugo --minify --cleanDestinationDir --baseURL "https://oriolmirolf.github.io/"
+    - name: Build
+      run: hugo --minify
 
-      - name: Deploy to main
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: main
-          publish_dir: ./public
-          # Optional, keeps main with only the latest commit
-          force_orphan: true
-          # If you use a custom domain, uncomment:
-          # cname: your.domain.tld
+    # push the generated content into the `gh-pages` branch.
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4.0.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: main
+        publish_dir: ./public
